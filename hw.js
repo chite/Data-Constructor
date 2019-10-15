@@ -22,6 +22,7 @@ for (let i = 0; i < 10; i++) {
     }
 
     // Almost Sorted
+    // text1 = text1.sort((a,b)=>a-b);
     // let b = [];
     // for (let i = 0; i < 100; i++) { //產生100個位置
     //     let c = Math.floor(Math.random() * Math.pow(10, 8)) + 1;
