@@ -1,8 +1,9 @@
 let treap = require("treap");
 const write = require("./write");
-let tree = treap.create();
+let tree = treap.create();   //初始化資料結構
 function treaps() {
     {
+        //新增
         let counter = 0;    //per 1000
         let lasttime = 0;
         let inserttimelist = [];
@@ -24,6 +25,7 @@ function treaps() {
         write('treap1', inserttimelist);
     }
     {
+        // 搜尋
         let counter = 0;    //per 1000
         let time = process.hrtime();
         let finddatalist = [];

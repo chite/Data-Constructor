@@ -1,8 +1,9 @@
 let createTree = require("functional-red-black-tree");
 const write = require("./write");
-let tree = createTree();
+let tree = createTree();   //初始化資料結構
 function redblacktree() {
     {
+        //新增
         let counter = 0;    //per 1000
         let lasttime = 0;
         let inserttimelist = [];
@@ -22,6 +23,7 @@ function redblacktree() {
         write('redblacktree1', inserttimelist);
     }
     {
+        // 搜尋
         let counter = 0;    //per 1000
         let time = process.hrtime();
         let finddatalist = [];

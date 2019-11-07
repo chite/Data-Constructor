@@ -1,8 +1,9 @@
 const Tree = require('avl');
 const write = require("./write");
-const t = new Tree();
+const t = new Tree();   //初始化資料結構
 function avl() {
     {
+        //新增
         let counter = 0;    //per 1000
         let lasttime = 0;
         let inserttimelist = [];
@@ -22,6 +23,7 @@ function avl() {
         write('avl1', inserttimelist);
     }
     {
+        // 搜尋
         let counter = 0;    //per 1000
         finddatalist = [];
         let time = process.hrtime();
