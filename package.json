@@ -29,10 +29,14 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.0",
+    "avl": "^1.4.4",
+    "functional-red-black-tree": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-icons": "^3.8.0",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
-    "recharts": "^1.8.2"
+    "recharts": "^1.8.2",
+    "treap": "0.0.1"
   }
 }
