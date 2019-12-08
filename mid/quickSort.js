@@ -3,11 +3,14 @@ console.log(quickSort(a, 0, a.length - 1))
 function quickSort(array, left, right) {
     var index;
     if (array.length > 1) {
-        index = partition(array, left, right); //取得索引值
+        index = partition(array, left, right); //取得索引值和排序
+        console.log(index, left, left < index - 1, right, index < right, array)
         if (left < index - 1) { //索引值左方還有未排序元素
+            console.log('a')
             quickSort(array, left, index - 1);
         }
         if (index < right) { //索引值右方還有未排序元素
+            console.log('b')
             quickSort(array, index, right);
         }
     }
@@ -35,7 +38,9 @@ function partition(array, left, right) {
             j--;
         }
         if (i <= j) {
+            console.log( array)
             swap(array, i, j); //將i迭代到大於中位值的值 和 j迭代小於中位值的值 交換
+            console.log( array)
             // 繼續
             i++;
             j--;
