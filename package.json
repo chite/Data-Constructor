@@ -37,6 +37,7 @@
     "hash-table-ds": "^1.0.0",
     "icollections": "^3.0.16",
     "js-graph-algorithms": "^1.0.18",
+    "node-dijkstra": "^2.5.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-icons": "^3.8.0",
